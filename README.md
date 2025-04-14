@@ -10,7 +10,7 @@ Sistematização para cadastro e análise de vinhos nacionais e importados da Vi
 
 # GitHub Pages:
 Visite o projeto pelo site! 
-🔗 [https://kathlourenco.github.io/vinheria-agnelo/] 
-  \
+🔗 [https://kathlourenco.github.io/vinheria-agnelo/]  \
+
 ![image](https://github.com/user-attachments/assets/798d9ad9-b8e6-4525-95ac-3dcf3eed4ebe)
 
