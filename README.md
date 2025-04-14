@@ -6,7 +6,7 @@ Sistematização para cadastro e análise de vinhos nacionais e importados da Vi
  Yasmin Amorim Affonso  \
  Nuno Coutinho Henrique  \
  Thiago Luza Alves  \
- Kauã Gabriel Moreira E Silva  \
+ Kauã Gabriel Moreira E Silva  
 
 # GitHub Pages:
 Visite o projeto pelo site! 
