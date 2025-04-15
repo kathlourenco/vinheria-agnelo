@@ -65,6 +65,21 @@ if (vaziosafra) {
 
 }
 
+var harmonizacavinho = prompt("Informe o vinho escolhido: Tinto, Rosé ou Branco ").toLowerCase(); 
+
+if (harmonizacaovinho === "tinto") {
+    alert("Vinho Tinto combina com queijos curados")
+} else if (harmonizacaovinho === "rosé" || harmonizacaovinho === "rose") {
+    alert("Vinho Rosé combina com saladas frescas")
+
+} else if (harmonizacaovinho === "branco") {
+    alert("Vinho Branco combina com castanhas") 
+
+} else { 
+    alert("Insira vinhos existentes na loja") 
+}
+
+
 
 // sugestões de harmonização
 
@@ -150,3 +165,6 @@ Data do Cadastro: , \n
 País de Origem: . 
 ` 
 );
+
+
+
