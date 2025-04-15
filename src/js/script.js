@@ -65,6 +65,8 @@ if (vaziosafra) {
 
 }
 
+// sugestões de harmonização
+
 var harmonizacavinho = prompt("Informe o vinho escolhido: Tinto, Rosé ou Branco ").toLowerCase(); 
 
 if (harmonizacaovinho === "tinto") {
@@ -79,13 +81,22 @@ if (harmonizacaovinho === "tinto") {
     alert("Insira vinhos existentes na loja") 
 }
 
+// país de origem 
+var paisorigem = prompt("Informe o tipo de vinho para saber qual o seu país de origem: Tinto, Branco ou Rosé ").toLocaleLowerCase();
 
-
-// sugestões de harmonização
+if (paisorigem === "tinto"){
+    alert("O país de orgiem do Vinho Tinto é a Geórgia")
+} else if(paisorigem === "branco"){
+    alert("O país de origem do Vinho branco é a Geórgia")
+} else if (oaisorigem === "rosé" || paisorigem === "rose"){
+    alert("O país de origem do Vinho Rosé é a França")
+} else {
+    alert("Insira um vinho da loja")
+}
 
 // data de cadastro
 
-// país de origem 
+
 
 
 valornum = parseFloat(valor);
