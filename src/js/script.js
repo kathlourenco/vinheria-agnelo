@@ -2,6 +2,19 @@
 alert("Olá! Seja bem-vindo(a) à página de cadastro de vinhos da Vinharia Agnelo!");
 
 
+
+// funcionario
+
+var funcionario = prompt("Informe o funcionário que está cadastrando o produto:")
+
+vaziofunc = (funcionario == "");
+
+if (vaziofunc) {
+
+    alert("Informe o nome de um funcionário")
+
+}
+
 var nome = prompt("Por favor, informe o nome do vinho a ser cadastrado:");
 
 vazionome = (nome == "");
@@ -42,7 +55,7 @@ if (vazioqtdest) {
 
 }
 
-var safra = prompt("Por fim, informe o ano da safra:");
+var safra = prompt("Informe o ano da safra:");
 
 vaziosafra = (safra == "");
 
@@ -51,6 +64,13 @@ if (vaziosafra) {
     alert("Por favor, informe uma safra válida")
 
 }
+
+
+// sugestões de harmonização
+
+// data de cadastro
+
+// país de origem 
 
 
 valornum = parseFloat(valor);
@@ -115,12 +135,18 @@ else {
     
 }
 
+
+
 console.log(
 `
-Nome: ${nome}, \n 
+Nome do Funcionário: ${funcionario},\n
+Nome do Produto: ${nome}, \n 
 Valor: R$ ${valornum}, \n
 Tipo: ${tipo}, \n
-Qtd. disponível: ${qtdestnum} - ${statusestoque}, \n
-Ano da safra: ${safranum} - ${classafra}. 
+Qtd. Disponível: ${qtdestnum} - ${statusestoque},\n
+Ano da Safra: ${safranum} - ${classafra} \n
+Sugestão de Harmonização: , \n 
+Data do Cadastro: , \n
+País de Origem: . 
 ` 
 );
