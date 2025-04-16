@@ -67,7 +67,7 @@ if (vaziosafra) {
 
 // sugestões de harmonização
 
-var harmonizacavinho = prompt("Informe o vinho escolhido: Tinto, Rosé ou Branco ").toLowerCase(); 
+var harmonizacavinho = prompt("Informe o vinho escolhido para indicação de harmonização: Tinto, Rosé ou Branco ").toLowerCase(); 
 
 if (harmonizacaovinho === "tinto") {
     alert("Vinho Tinto combina com queijos curados")
