@@ -64,7 +64,7 @@ body {
     height: 30%;
     width: 90%;
     border-radius: 20px;
-    background-image: url(../assets/imgs/barris.png);
+    background-image: url(../assets/imgs/cachos.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -81,7 +81,7 @@ body {
     width: 40vw;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
@@ -89,8 +89,63 @@ body {
     backdrop-filter: blur(4px);
 }
 
-#estoque > h1 {
+#titulo {
     font-weight: normal;
-    font-size: 3.5em;
+    font-size: 1.7em;
     color: white;
+}
+
+.atributo {
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+    font-size: 2.7em;
+    line-height: 1;
+    color: whitesmoke;
+    width: 45%;
+    height: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+    background-color: rgb(83, 83, 83);
+}
+
+#nomeVinho {
+    background-image: url(../assets/imgs/vinho.png);
+    background-position: bottom left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#tipoVinho {
+    background-image: url(../assets/imgs/tipos.png);
+    background-position: bottom left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#safraVinho {
+    background-image: url(../assets/imgs/vinicola.png);
+    background-position: bottom left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#quantVinho {
+    background-image: url(../assets/imgs/quant.png);
+    background-position: bottom left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#ano, #quant, #tipo, #nome {
+    color: rgb(255, 224, 184);
+    font-size: 1em;
+    align-self: flex-end;
 }
