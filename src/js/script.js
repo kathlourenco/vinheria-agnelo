@@ -67,13 +67,13 @@ function detalhesVinho(nome, tipo, estoque, producao) {
     if(estoque < 5){
         console.log ("Estoque do vinho escolhido : " + estoque + "  " + "Estoque baixo!");
     } 
-    else if(producao < 2015){
+    if(producao < 2015){
             console.log("ano do vinho : " + producao + "  " + "  Vinho Antigo!");
     }
-    else if(producao >= 2015 && producao <= 2019){
+    if(producao >= 2015 && producao <= 2019){
             console.log("ano do vinho : " + producao + "  " + "  Vinho Amadurecido!");
     }
-    else if(producao >= 2020 ){
+    if(producao >= 2020 ){
             console.log("ano do vinho : " + producao + "  " + "  Vinho jovem!");
     }
     else {
