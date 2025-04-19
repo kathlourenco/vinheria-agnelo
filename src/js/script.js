@@ -33,7 +33,7 @@ function cadastrarVinho() {
         dataproducao = parseInt(String(dataproducao).trim());
 
 
-    estoque = prompt("Insira quantos vinhos deseja levar: ");
+    estoque = prompt("Insira quantos vinhos deseja cadastrar: ");
         if (estoque.trim() === "" || parseInt(estoque) <= 0) {
             alert("Insira uma quantidade de vinhos válida no estoque!");
             estoque = prompt("Insira quantos vinhos deseja levar: ");
@@ -91,6 +91,10 @@ function detalhesVinho(nome, tipo, estoque, producao) {
     
 } 
  
-    detalhesVinho(nomevinho, tipovinho, estoque, dataproducao); 
+detalhesVinho(nomevinho, tipovinho, estoque, dataproducao); 
 
+document.getElementById("nome").innerText = nomevinho;
+document.getElementById("tipo").innerText = tipovinho;
+document.getElementById("ano").innerText = dataproducao;
+document.getElementById("quant").innerText = estoque;    
 

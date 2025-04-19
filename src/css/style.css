@@ -149,3 +149,49 @@ body {
     font-size: 1em;
     align-self: flex-end;
 }
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #info, #estoque {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #info > p {
+        font-size: 1em;
+    }
+
+    #titulo {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .atributo {
+        width: 100%;
+        height: auto;
+        font-size: 1.5em;
+        padding: 15px;
+        margin: 10px 0;
+        background-size: 20%;
+    }
+
+    #ano, #quant, #tipo, #nome {
+        font-size: 0.9em;
+        align-self: center;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #img {
+        height: 150px;
+        width: 100%;
+    }
+}
