@@ -15,7 +15,7 @@ function cadastrarVinho() {
 
     tipovinho = prompt("Insira o tipo do vinho: Tinto, Branco ou Rosé: ");
     tipovinho = tipovinho.trim();
-        if (tipovinho !== "tinto" && tipovinho !== "branco" && tipovinho !== "rosé" && tipovinho !== "rose"){
+        if (tipovinho !== "tinto" && tipovinho !== "Tinto" && tipovinho !== "branco" && tipovinho !== "Branco" && tipovinho !== "rosé" && tipovinho !== "rose" && tipovinho !== "Rose" && tipovinho !== "Rosé"){
             alert("Insira um tipo de vinho da nossa loja!");
             tipovinho = prompt("Insira o tipo do vinho: Tinto, Branco ou Rosé: ");
             tipovinho = tipovinho.trim();
