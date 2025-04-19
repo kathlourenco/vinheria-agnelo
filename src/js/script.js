@@ -11,17 +11,28 @@ function cadastrarVinho() {
             alert("Insira o nome de um vinho da nossa loja!");
             nomevinho = prompt("Insira o nome de um vinho: ");
         }
-
+        
 
     tipovinho = prompt("Insira o tipo do vinho: Tinto, Branco ou Rosé: ");
-        
     tipovinho = tipovinho.trim().toLowerCase();
         if (tipovinho !== "tinto" && tipovinho !== "branco" && tipovinho !== "rosé" && tipovinho !== "rose"){
             alert("Insira um tipo de vinho da nossa loja!");
             tipovinho = prompt("Insira o tipo do vinho: Tinto, Branco ou Rosé: ");
             tipovinho = tipovinho.trim().toLowerCase();
         }
-
+        if (tipovinho === "tinto") {
+            tipovinho = "Tinto";
+            alert("Sua escolha de vinho foi: " + tipovinho);
+        } else if (tipovinho === "branco") {
+            tipovinho = "Branco";
+            alert("Sua escolha de vinho foi: " + tipovinho);
+        } else if (tipovinho === "rosé" || tipovinho === "rose") {
+            tipovinho = "Rosé";
+            alert("Sua escolha de vinho foi: " + tipovinho);
+        } else {
+            alert("Insira um tipo de vinho da nossa loja!"); 
+         }
+    
 
     dataproducao = prompt("Insira a data de produção do vinho: ").trim();
     dataproducao = dataproducao.trim();
@@ -97,4 +108,3 @@ document.getElementById("nome").innerText = nomevinho;
 document.getElementById("tipo").innerText = tipovinho;
 document.getElementById("ano").innerText = dataproducao;
 document.getElementById("quant").innerText = estoque;    
-
