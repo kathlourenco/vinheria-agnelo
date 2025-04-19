@@ -14,19 +14,19 @@ function cadastrarVinho() {
         
 
     tipovinho = prompt("Insira o tipo do vinho: Tinto, Branco ou Rosé: ");
-    tipovinho = tipovinho.trim().toLowerCase();
+    tipovinho = tipovinho.trim();
         if (tipovinho !== "tinto" && tipovinho !== "branco" && tipovinho !== "rosé" && tipovinho !== "rose"){
             alert("Insira um tipo de vinho da nossa loja!");
             tipovinho = prompt("Insira o tipo do vinho: Tinto, Branco ou Rosé: ");
-            tipovinho = tipovinho.trim().toLowerCase();
+            tipovinho = tipovinho.trim();
         }
-        if (tipovinho === "tinto") {
+        if (tipovinho.toLowerCase() === "tinto") {
             tipovinho = "Tinto";
             alert("Sua escolha de vinho foi: " + tipovinho);
-        } else if (tipovinho === "branco") {
+        } else if (tipovinho.toLowerCase() === "branco") {
             tipovinho = "Branco";
             alert("Sua escolha de vinho foi: " + tipovinho);
-        } else if (tipovinho === "rosé" || tipovinho === "rose") {
+        } else if (tipovinho.toLowerCase() === "rosé" || tipovinho.toLowerCase() === "rose") {
             tipovinho = "Rosé";
             alert("Sua escolha de vinho foi: " + tipovinho);
         } else {
