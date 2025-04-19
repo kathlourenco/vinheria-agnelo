@@ -72,32 +72,20 @@ function detalhesVinho(nome, tipo, estoque, producao) {
                 console.log(`Nome: ${nome}`);
                 console.log(`Tipo:  ${tipo}`);
                 console.log(`Estoque:  ${estoque}`);
-                console.log(`Ano: " ${producao}`);
+                console.log(`Ano:  ${producao}`);
     
 
     if(estoque < 5){
-        console.log ("Estoque do vinho escolhido : " + estoque + "  " + "Estoque baixo!");
+        console.log ("Estoque do vinho escolhido : "  + "  " + "Estoque baixo!");
     } 
     if(producao < 2015){
-            console.log("ano do vinho : " + producao + "  " + "  Vinho Antigo!");
+            console.log("Classificação da safra do vinho : "  + "  " + "  Vinho Antigo!");
     }
     if(producao >= 2015 && producao <= 2019){
-            console.log("ano do vinho : " + producao + "  " + "  Vinho Amadurecido!");
+            console.log("Classificação da safra do vinho : "  + "  " + "  Vinho Amadurecido!");
     }
     if(producao >= 2020 ){
-            console.log("ano do vinho : " + producao + "  " + "  Vinho jovem!");
-    }
-    else {
-        if(producao < 2015){
-            console.log("Data de produção do vinho : " + producao + "  " + "  Vinho antigo!");
-        }
-        if(producao >= 2015 && producao <= 2019){
-            console.log("Data de produção do vinho : " + producao + "   " + "  Vinho amadurecido!");
-        }
-        if(producao >= 2020 ){
-            console.log("Data de produção do vinho : " + producao + "  " + "  Vinho jovem!");
-        }
-        
+            console.log("Classificação da safra do vinho : "  + "  " + "  Vinho jovem!");
     } 
     
 } 
