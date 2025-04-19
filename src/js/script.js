@@ -76,7 +76,7 @@ function detalhesVinho(nome, tipo, estoque, producao) {
     
 
     if(estoque < 5){
-        console.log ("Estoque do vinho escolhido : "  + "  " + "Estoque baixo!");
+        console.log ("Classificação do estoque do vinho : "  + "  " + "Estoque baixo!");
     } 
     if(producao < 2015){
             console.log("Classificação da safra do vinho : "  + "  " + "  Vinho Antigo!");
